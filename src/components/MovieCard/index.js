@@ -8,7 +8,7 @@ const MovieCard = props => {
     <Link className="list-container" to={`/movie/${id}`}>
       <li>
         <img
-          src={`https://image.tmdb.org/t/p/original${posterPath}`}
+          src={`https://image.tmdb.org/t/p/w500${posterPath}`}
           alt={title}
           className="movie-card"
         />
